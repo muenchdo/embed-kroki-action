@@ -1,0 +1,9 @@
+# every action has a name
+name: Convert PlantUML
+# description
+description: This action creates an issue based on user inputs
+
+# definition how we want our action
+runs:
+  using: docker # we are saying this action will run on docker
+  image: 'Dockerfile' # we will use our own Dockerfile to build an image and run it.
